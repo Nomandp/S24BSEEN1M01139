@@ -1,6 +1,5 @@
 prev_num = 0
 for i in range(10):
-    current_num = i
-    sum_nums = prev_num + current_num
-    print(f"Current number: {current_num}, Previous number: {prev_num}, Sum: {sum_nums}")
-    prev_num = current_num
+    sum_nums = prev_num + i
+    print(f"Current number: {i}, Previous number: {prev_num}, Sum: {sum_nums}")
+    prev_num = i
