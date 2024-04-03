@@ -1,6 +1,11 @@
 def remove_chars(s, n):
-    return s[n:]
-s = "Hello, World!"
-n = 7
-result = remove_chars(s, n)
-print(result)  
+    if n < len(s):
+        return s[n:]
+    else:
+        return "Index out of range"
+
+s = "NOMAN"
+n = 2
+result = remove_chars(o, n)
+print(result)
+ 
